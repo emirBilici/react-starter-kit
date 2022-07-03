@@ -1,10 +1,15 @@
-function App() {
+import styles from './App.module.css';
+import Test from './Test';
+import { Title } from  './Components';
+
+function App() { 
   return (
-    <div className="App">
+    <div className={styles.App}>
       {process.env.NODE_ENV === "development" && (
-          <h3>Hello World from React!</h3>
+          <Title theme="dark">Hello World from React!</Title>
       )}
       <p>{process.env.REACT_APP_API_URL}</p>
+      <Test />
     </div>
   );
 }
