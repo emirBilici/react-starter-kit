@@ -5,7 +5,6 @@ export const Title = styled.h1`
     font-weight: 600;
     color: #7d7d7d;
     cursor: default;
-    
     ${props => props.theme === "dark" && css`
         color: #1d1d1f;
 

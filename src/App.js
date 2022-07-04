@@ -1,6 +1,11 @@
 import styles from './App.module.css';
 import Test from './Test';
 import { Title } from  './Components';
+import Bootsrap from './Bootsrap';
+
+// Tailwind
+import './tailwind.css';
+import Tailwind from './tailwind';
 
 function App() { 
   return (
@@ -10,6 +15,8 @@ function App() {
       )}
       <p>{process.env.REACT_APP_API_URL}</p>
       <Test />
+      <Bootsrap />
+      <Tailwind />
     </div>
   );
 }
