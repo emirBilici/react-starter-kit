@@ -1,2 +1,1 @@
-# React Starter Kit
-This is first codes of the project.
+# I am learning React
